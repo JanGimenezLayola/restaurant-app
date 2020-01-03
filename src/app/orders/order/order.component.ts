@@ -20,9 +20,7 @@ export class OrderComponent implements OnInit {
     this.resetForm();
   }
 
-  resetForm(form?: NgForm) {
-    console.log('HREWFDSFLDGJFGFMDLGMFDSGLMLFGMFLSDMGLFSDMGLFDMGLFSDMGLFDGFMDSG');
-    
+  resetForm(form?: NgForm) {    
     if(form = null)
       form.resetForm();
     this.service.formData = {
