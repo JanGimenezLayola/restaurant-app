@@ -10,6 +10,6 @@ export class OrderItem {
 
     price: number;
 
-    total: number;
+    Total: number;
 
 }

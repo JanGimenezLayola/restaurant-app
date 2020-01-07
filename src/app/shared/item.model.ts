@@ -1,5 +1,7 @@
 export class Item {
 
-    name: string
+    name: string;
+
+    Price: number
     
 }

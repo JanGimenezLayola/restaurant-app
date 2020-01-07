@@ -10,6 +10,8 @@ import { OrdersComponent } from './orders/orders.component';
 import { OrderComponent } from './orders/order/order.component';
 import { OrderItemsComponent } from './orders/order-items/order-items.component';
 import { OrderService } from './shared/order.service';
+import { HttpClientModule } from '@angular/common/http';
+import { ToastrModule } from "ngx-toastr";
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { OrderService } from './shared/order.service';
     FormsModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    HttpClientModule,
+    ToastrModule.forRoot()
   ],
   entryComponents:[OrderItemsComponent],
   providers: [OrderService],
